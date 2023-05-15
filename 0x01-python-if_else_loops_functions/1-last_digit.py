@@ -7,7 +7,7 @@ else:
     num = number % 10
 if num > 5:
     print("Last digit of {0:d} is {1:d} and is greater than 5"
-        .format(number, num)
+        .format(number, num))
 elif num == 0:
     print("Last digit of {0:d} is {1:d} and is 0"
         .format(number, num))
