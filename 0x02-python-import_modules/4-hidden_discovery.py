@@ -5,4 +5,3 @@ if __name__ == "__main__":
     arrange_names = sorted(name for name in names if not name.startswith("__"))
     for name in arrange_names:
         print(name)
-
