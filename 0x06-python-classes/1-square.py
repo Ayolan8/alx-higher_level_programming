@@ -2,7 +2,6 @@
 """defining a square"""
 
 
-
 class Square:
     """type class square
 
