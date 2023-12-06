@@ -21,7 +21,7 @@ def print_stats(size, status_codes):
 
 
 if __name__ == "__main__":
-    import sys
+    import sy
 
     size = 0
     status_codes = {}
@@ -41,7 +41,7 @@ if __name__ == "__main__":
             try:
                 size += int(line[-1])
             except (IndexError, ValueError):
-                pass
+                pa
 
             try:
                 if line[-2] in valid_codes:
@@ -50,7 +50,7 @@ if __name__ == "__main__":
                     else:
                         status_codes[line[-2]] += 1
             except IndexError:
-                pass
+                pa
 
         print_stats(size, status_codes)
 
